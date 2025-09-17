@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegioAds.Api", "RegioAds\RegioAds.Api.csproj", "{518279C1-AAE4-4B9A-AFD2-C1FEF558DEC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegioAds.Api", "RegioAds\RegioAds.Api.csproj", "{518279C1-AAE4-4B9A-AFD2-C1FEF558DEC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegioAds.Domain", "RegioAds.Domain\RegioAds.Domain.csproj", "{63A90103-0E69-4637-AECF-91BFFEA182AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegioAds.Domain", "RegioAds.Domain\RegioAds.Domain.csproj", "{63A90103-0E69-4637-AECF-91BFFEA182AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegioAds.Infrastructure", "RegioAds.Infrastructure\RegioAds.Infrastructure.csproj", "{ADC153A1-E840-4D78-B721-A448D6B43F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegioAds.Application", "RegioAds.Application\RegioAds.Application.csproj", "{A500F02C-A1B0-45E6-B283-666303C77A1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{63A90103-0E69-4637-AECF-91BFFEA182AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A90103-0E69-4637-AECF-91BFFEA182AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A90103-0E69-4637-AECF-91BFFEA182AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC153A1-E840-4D78-B721-A448D6B43F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC153A1-E840-4D78-B721-A448D6B43F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC153A1-E840-4D78-B721-A448D6B43F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC153A1-E840-4D78-B721-A448D6B43F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
