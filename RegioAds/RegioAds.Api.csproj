@@ -4,14 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Middlewares\" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RegioAds.Application\RegioAds.Application.csproj" />
+    <ProjectReference Include="..\RegioAds.Infrastructure\RegioAds.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

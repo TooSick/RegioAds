@@ -3,8 +3,9 @@ using RegioAds.Application.Abstractions;
 
 namespace RegioAds.Api.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    [Produces("application/json")]
     public class AdPlatformController : ControllerBase
     {
         private readonly IAdPlatformService _adPlatformService;
@@ -16,6 +17,10 @@ namespace RegioAds.Api.Controllers
         }
 
 
+        /// <response code="200">Data reloaded succesfuly</response>
+        /// <response code="400">Invalid platform name</response>
+        /// <response code="404">File with data not found</response>
+        /// <response code="500">Unexpected exception</response>
         [HttpPost("[action]")]
         public async Task<IActionResult> Reload()
         {
@@ -23,6 +28,10 @@ namespace RegioAds.Api.Controllers
             return Ok();
         }
 
+        /// <response code="200">Platforms found</response>
+        /// <response code="400">Invalid platform name</response>
+        /// <response code="404">File with data not found</response>
+        /// <response code="500">Unexpected exception</response>
         [HttpGet("[action]")]
         public async Task<IActionResult> FindPlatforms(string location)
         {

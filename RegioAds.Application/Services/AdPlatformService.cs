@@ -2,7 +2,7 @@
 
 namespace RegioAds.Application.Services
 {
-    public class AdPlatformService
+    public class AdPlatformService : IAdPlatformService
     {
         private readonly IAdPlatformRepository _adPlatformRepository;
 

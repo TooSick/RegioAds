@@ -40,7 +40,7 @@ namespace RegioAds.Infrastructure.Repos
         private async Task<AdTree> LoadTreeFromFileAsync()
         {
             if (!File.Exists(_fileCofig.FilePath))
-                throw new FileNotFoundException(_fileCofig.FilePath);
+                throw new FileNotFoundException("File for reading data not found");
 
             var tree = new AdTree();
 
