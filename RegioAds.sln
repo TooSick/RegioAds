@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegioAds.Domain", "RegioAds
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegioAds.Infrastructure", "RegioAds.Infrastructure\RegioAds.Infrastructure.csproj", "{ADC153A1-E840-4D78-B721-A448D6B43F32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegioAds.Application", "RegioAds.Application\RegioAds.Application.csproj", "{A500F02C-A1B0-45E6-B283-666303C77A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegioAds.Application", "RegioAds.Application\RegioAds.Application.csproj", "{A500F02C-A1B0-45E6-B283-666303C77A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegioAds.Tests", "RegioAds.Tests\RegioAds.Tests.csproj", "{E44D3237-0A92-4ACF-93C1-E72717331832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A500F02C-A1B0-45E6-B283-666303C77A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44D3237-0A92-4ACF-93C1-E72717331832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44D3237-0A92-4ACF-93C1-E72717331832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44D3237-0A92-4ACF-93C1-E72717331832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44D3237-0A92-4ACF-93C1-E72717331832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

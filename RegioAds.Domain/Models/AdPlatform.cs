@@ -32,7 +32,7 @@ namespace RegioAds.Domain.Models
 
         public int GetHashCode([DisallowNull] AdPlatform obj)
         {
-            return obj.GetHashCode();
+            return obj.Name.GetHashCode();
         }
     }
 }
